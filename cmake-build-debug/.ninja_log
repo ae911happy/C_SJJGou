@@ -1,0 +1,6 @@
+# ninja log v5
+3	36	6881541031373115	CMakeFiles/untitled.dir/main.cpp.obj	6f5d3ba73fd3a83b
+39	101	6881546259616046	untitled.exe	5a6136114e09c080
+1	36	6881541031363150	CMakeFiles/untitled.dir/StructFirst.cpp.obj	3162b87c5ce1e3aa
+1	39	6881546259022889	CMakeFiles/untitled.dir/StructBianLiang.cpp.obj	7056081927870f30
+2	52	6881546131966432	CMakeFiles/untitled.dir/DanList/main.cpp.obj	f88810921f0c5e9
