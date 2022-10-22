@@ -9,6 +9,7 @@ struct Book
 };
 void getInput(struct Book *book)
 {
+
     printf("请输入书名：");
     scanf("%s",book->title);
     printf("请输入作者：");
@@ -42,11 +43,64 @@ void addBook(struct Book **library)
     }
 }
 
+void printLibrary(struct Book *library)
+{
+    struct Book *book;
+    int count = 1;
+
+    book = library;
+    while (book != NULL)
+    {
+        printf("Book%d:",count);
+        printf("书名：%s",book->title);
+        printf("作者：%s",book->author);
+        book = book->next;
+        count++;
+    }
+}
+
+void releaseLibrary(struct Book *library)
+{
+    while (library != NULL)
+    {
+        library = library->next;
+        free(library);
+    }
+}
+
 int main()
 {
+    setvbuf(stdout, NULL, _IONBF, 0);
     //头指针
     struct Book *library = NULL;
-    addBook(&library);
+    int ch;
+    while (1)
+    {
+        printf("是否需要录入书籍信息（Y/N）：");
+        do
+        {
+            ch = getchar();
+        } while (ch != 'Y' &&ch != 'N');
+        if (ch == 'Y')
+        {
+            addBook(&library);
+        }
+        else
+        {
+            break;
+        }
+    }
+
+    printf("是否需要打印图书信息（Y/N）：");
+    do {
+       ch = getchar();
+    } while (ch != 'Y' && ch != 'N');
+    if (ch == 'Y')
+    {
+        printLibrary(library);
+    }
+
+    releaseLibrary(library);
 
     return 0;
 }

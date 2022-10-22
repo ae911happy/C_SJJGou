@@ -1,6 +1,14 @@
 # ninja log v5
-3	36	6881541031373115	CMakeFiles/untitled.dir/main.cpp.obj	6f5d3ba73fd3a83b
-39	101	6881546259616046	untitled.exe	5a6136114e09c080
-1	36	6881541031363150	CMakeFiles/untitled.dir/StructFirst.cpp.obj	3162b87c5ce1e3aa
-1	39	6881546259022889	CMakeFiles/untitled.dir/StructBianLiang.cpp.obj	7056081927870f30
-2	52	6881546131966432	CMakeFiles/untitled.dir/DanList/main.cpp.obj	f88810921f0c5e9
+2	51	6881582233372278	CMakeFiles/untitled.dir/main.cpp.obj	c320729d7143b650
+62	122	6881589592433327	untitled.exe	5a6136114e09c080
+4	51	6881582233362309	CMakeFiles/untitled.dir/StructFirst.cpp.obj	7a28cf84b516ca05
+8	52	6881582233382244	CMakeFiles/untitled.dir/StructBianLiang.cpp.obj	b9056bee09f31024
+2	62	6881589591870044	CMakeFiles/untitled.dir/DanList/main.cpp.obj	e609c2e2f1f80b4d
+2	57	6881594044684153	CMakeFiles/untitled.dir/DanList/main.cpp.obj	e609c2e2f1f80b4d
+57	119	6881594045237436	untitled.exe	5a6136114e09c080
+2	61	6881598403809293	CMakeFiles/untitled.dir/DanList/main.cpp.obj	e609c2e2f1f80b4d
+62	125	6881598404413305	untitled.exe	5a6136114e09c080
+2	53	6881598741267687	CMakeFiles/untitled.dir/DanList/main.cpp.obj	e609c2e2f1f80b4d
+53	116	6881598741861754	untitled.exe	5a6136114e09c080
+3	60	6881598823573597	CMakeFiles/untitled.dir/DanList/main.cpp.obj	e609c2e2f1f80b4d
+60	113	6881598824087252	untitled.exe	5a6136114e09c080
